@@ -65,19 +65,19 @@ Visual results and model evaluation,
 Lightweight processing approach suitable for real-time experimentation.
 ## Technologies Used
 ### Hardware
-Drone platform
-ESP32-S3 camera module
-Laptop / computing system
-Mobile hotspot / local wireless network
-Software
-Python
-OpenCV
-DeepFace
-VGG-Face
-NumPy
-Scikit-learn
-Random Forest
-Google Colab
+Drone platform,
+ESP32-S3 camera module,
+Laptop / computing system,
+Mobile hotspot / local wireless network.
+### Software
+Python,
+OpenCV,
+DeepFace,
+VGG-Face,
+NumPy,
+Scikit-learn,
+Random Forest,
+Google Colab.
 ## Project Structure
 ├── README.md
 ├── LICENSE
@@ -88,53 +88,54 @@ Google Colab
 ├── Docs/
 ├── data/
 └── models/
-Model Performance
+## Model Performance
 
-The action-recognition Random Forest experiment achieved:
+### The action-recognition Random Forest experiment achieved:
 
 Metric	Result
 OOB Accuracy	83.13%
 Test Accuracy	79.09%
 
-The test evaluation was performed using a stratified train/test split.
+/ The test evaluation was performed using a stratified train/test split.
 
-Results
+## Results
 
-The repository contains visualizations for:
+### The repository contains visualizations for:
 
-Action-recognition confusion matrix
-Class-wise accuracy
-Face-recognition distance analysis
-Face-embedding visualization
-Dataset
+Action-recognition confusion matrix,
+Class-wise accuracy,
+Face-recognition distance analysis,
+Face-embedding visualization.
+## Dataset
 
-The action-recognition dataset was collected and prepared specifically for this project and contains three activity classes:
+### The action-recognition dataset was collected and prepared specifically for this project and contains three activity classes:
 
 Normal
 Aggressive
 Fight
-Limitations
+## Limitations
 
-The current prototype uses a manually controlled drone and processes the video on an external computing system.
+1) The current prototype uses a manually controlled drone and processes the video on an external computing system.
 
-Autonomous navigation and GPS-based operation are not implemented in the current version.
+2) Autonomous navigation and GPS-based operation are not implemented in the current version.
 
-Future Work
+## Future Work
 
-Potential extensions include:
+### Potential extensions include:
 
-GPS integration
-Autonomous drone navigation
-Improved activity-recognition accuracy
-Larger and more diverse datasets
-Advanced deep-learning models
-Real-time mobile notifications
-Improved tracking and monitoring capabilities
-Project Report
+1)GPS integration.
+2)Autonomous drone navigation.
+3)Improved activity-recognition accuracy.
+4)Larger and more diverse datasets.
+5)Advanced deep-learning models.
+6)Real-time mobile notifications.
+7)Improved tracking and monitoring capabilities.
+
+## Project Report
 
 The complete B.Tech project report is available in the Docs/ directory.
 
-Authors
+## Authors
 D. Vamsi
 B. Praneeth Koundinya
 G. Harika
