@@ -100,12 +100,28 @@ The test evaluation was performed using a stratified train/test split.
 
 ## Results
 
-### The repository contains visualizations for:
+The project includes visualizations from both action-recognition and face-recognition experiments.
 
-Action-recognition confusion matrix.<br>
-Class-wise accuracy.<br>
-Face-recognition distance analysis.<br>
-Face-embedding visualization<br>
+### Action Recognition
+
+#### Confusion Matrix
+
+![Action Recognition Confusion Matrix](results/confusion_matrix.png)
+
+#### Class-wise Accuracy
+
+![Class-wise Accuracy](results/class_accuracy.png)
+
+### Face Recognition
+
+#### Distance Analysis
+
+![Face Recognition Distance Analysis](results/distance_plot.png)
+
+#### Face Embedding Visualization
+
+![Face Embedding Visualization](results/embedding_plot.png)
+
 ## Dataset
 
 ### The action-recognition dataset was collected and prepared specifically for this project and contains three activity classes:
