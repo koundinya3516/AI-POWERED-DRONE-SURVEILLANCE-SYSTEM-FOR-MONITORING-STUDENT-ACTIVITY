@@ -165,3 +165,6 @@ The complete B.Tech project report is available in the Docs/ directory.
 **R.V.R. & J.C. College of Engineering (Autonomous)**<br>
 Guntur, Andhra Pradesh
 2026
+## License
+
+This project is developed as an academic project at R.V.R. & J.C. College of Engineering.
