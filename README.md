@@ -55,16 +55,16 @@ When aggressive or fight activity is detected, the system can associate the dete
                   └─────────────────────┘
 ```
 ## Features
-Live video streaming using ESP32-S3
-Face detection and recognition
-VGG-Face embeddings through DeepFace
-Motion-based activity recognition
-Normal / Aggressive / Fight classification
-Temporal smoothing for activity predictions
-Visual results and model evaluation
-Lightweight processing approach suitable for real-time experimentation
-Technologies Used
-Hardware
+Live video streaming using ESP32-S3,
+Face detection and recognition,
+VGG-Face embeddings through DeepFace,
+Motion-based activity recognition,
+Normal / Aggressive / Fight classification,
+Temporal smoothing for activity predictions,
+Visual results and model evaluation,
+Lightweight processing approach suitable for real-time experimentation.
+## Technologies Used
+### Hardware
 Drone platform
 ESP32-S3 camera module
 Laptop / computing system
@@ -78,7 +78,7 @@ NumPy
 Scikit-learn
 Random Forest
 Google Colab
-Project Structure
+## Project Structure
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
