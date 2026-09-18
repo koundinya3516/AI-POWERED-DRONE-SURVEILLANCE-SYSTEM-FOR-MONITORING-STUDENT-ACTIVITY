@@ -54,7 +54,7 @@ When aggressive or fight activity is detected, the system can associate the dete
                   │ Activity Monitoring │
                   └─────────────────────┘
 ```
-##Features
+## Features
 Live video streaming using ESP32-S3
 Face detection and recognition
 VGG-Face embeddings through DeepFace
