@@ -113,6 +113,10 @@ Face-embedding visualization<br>
 Normal<br>
 Aggressive<br>
 Fight<br>
+## Project Status
+
+The current prototype uses a manually controlled drone with real-time video streaming and computer-vision based monitoring. Autonomous navigation is planned as future work.
+
 ## Limitations
 
 1) The current prototype uses a manually controlled drone and processes the video on an external computing system.<br>
