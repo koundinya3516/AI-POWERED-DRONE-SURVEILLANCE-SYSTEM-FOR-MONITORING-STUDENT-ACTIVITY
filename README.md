@@ -96,7 +96,7 @@ Metric	Result
 OOB Accuracy	83.13%
 Test Accuracy	79.09%
 
-/ The test evaluation was performed using a stratified train/test split.
+The test evaluation was performed using a stratified train/test split.
 
 ## Results
 
