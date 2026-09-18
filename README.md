@@ -55,20 +55,20 @@ When aggressive or fight activity is detected, the system can associate the dete
                   └─────────────────────┘
 ```
 ## Features
-Live video streaming using ESP32-S3,
-Face detection and recognition,
-VGG-Face embeddings through DeepFace,
-Motion-based activity recognition,
-Normal / Aggressive / Fight classification,
-Temporal smoothing for activity predictions,
-Visual results and model evaluation,
+Live video streaming using ESP32-S3.<br>
+Face detection and recognition.<br>
+VGG-Face embeddings through DeepFace.<br>
+Motion-based activity recognition.<br>
+Normal / Aggressive / Fight classification.<br>
+Temporal smoothing for activity predictions.<br>
+Visual results and model evaluation.<br>
 Lightweight processing approach suitable for real-time experimentation.
 ## Technologies Used
 ### Hardware
-Drone platform,
-ESP32-S3 camera module,
-Laptop / computing system,
-Mobile hotspot / local wireless network.
+Drone platform.<br>
+ESP32-S3 camera module.<br>
+Laptop / computing system.<br>
+Mobile hotspot / local wireless network.<br>
 ### Software
 Python,
 OpenCV,
@@ -79,22 +79,22 @@ Scikit-learn,
 Random Forest,
 Google Colab.
 ## Project Structure
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── src/
-├── dataset/
-├── results/
-├── Docs/
-├── data/
-└── models/
+├── README.md<br>
+├── LICENSE<br>
+├── requirements.txt<br>
+├── src/<br>
+├── dataset/<br>
+├── results/<br>
+├── Docs/<br>
+├── data/<br>
+└── models/<br>
 ## Model Performance
 
 ### The action-recognition Random Forest experiment achieved:
 
 Metric	Result
-OOB Accuracy	83.13%
-Test Accuracy	79.09%
+OOB Accuracy	83.13%<br>
+Test Accuracy	79.09%<br>
 
 The test evaluation was performed using a stratified train/test split.
 
@@ -102,46 +102,46 @@ The test evaluation was performed using a stratified train/test split.
 
 ### The repository contains visualizations for:
 
-Action-recognition confusion matrix,
-Class-wise accuracy,
-Face-recognition distance analysis,
-Face-embedding visualization.
+Action-recognition confusion matrix.<br>
+Class-wise accuracy.<br>
+Face-recognition distance analysis.<br>
+Face-embedding visualization<br>
 ## Dataset
 
 ### The action-recognition dataset was collected and prepared specifically for this project and contains three activity classes:
 
-Normal
-Aggressive
-Fight
+Normal<br>
+Aggressive<br>
+Fight<br>
 ## Limitations
 
-1) The current prototype uses a manually controlled drone and processes the video on an external computing system.
+1) The current prototype uses a manually controlled drone and processes the video on an external computing system.<br>
 
-2) Autonomous navigation and GPS-based operation are not implemented in the current version.
+2) Autonomous navigation and GPS-based operation are not implemented in the current version.<br>
 
 ## Future Work
 
 ### Potential extensions include:
 
-1)GPS integration.
-2)Autonomous drone navigation.
-3)Improved activity-recognition accuracy.
-4)Larger and more diverse datasets.
-5)Advanced deep-learning models.
-6)Real-time mobile notifications.
-7)Improved tracking and monitoring capabilities.
+1)GPS integration.<br>
+2)Autonomous drone navigation.<br>
+3)Improved activity-recognition accuracy.<br>
+4)Larger and more diverse datasets.<br>
+5)Advanced deep-learning models.<br>
+6)Real-time mobile notifications.<br>
+7)Improved tracking and monitoring capabilities.<br>
 
 ## Project Report
 
 The complete B.Tech project report is available in the Docs/ directory.
 
 ## Authors
-D. Vamsi
-B. Praneeth Koundinya
-G. Harika
-M. Mahendra
+**D. Vamsi**<br>
+**B. Praneeth Koundinya**<br>
+**G. Harika**<br>
+**M. Mahendra**<br>
 
-Department of Electronics and Communication Engineering
-R.V.R. & J.C. College of Engineering (Autonomous)
+**Department of Electronics and Communication Engineering**<br>
+**R.V.R. & J.C. College of Engineering (Autonomous)**<br>
 Guntur, Andhra Pradesh
 2026
